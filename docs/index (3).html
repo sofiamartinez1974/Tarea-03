@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Las brechas se achican, pero no todos avanzan · Lectura en Chile</title>
+    <meta
+      name="description"
+      content="En Chile, las diferencias de desempeño lector entre estudiantes se han reducido, pero los resultados PISA revelan una paradoja: una brecha más pequeña no siempre significa que todos están aprendiendo y comprendiendo más."
+    />
+    <meta property="og:title" content="Las brechas se achican, pero no todos avanzan · Lectura en Chile" />
+    <meta
+      property="og:description"
+      content="Análisis de la paradoja en las brechas socioeconómicas y de género en comprensión lectora PISA en Chile (2000–2022)."
+    />
+    <meta property="og:type" content="article" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Tinos:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+    <div class="reading-progress" aria-hidden="true">
+      <div class="reading-progress-fill" id="progressBar"></div>
+    </div>
+
+    <!-- Top Navigation Bar -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="#inicio" class="brand-wordmark" aria-label="Lectura en Chile - Inicio">
+          <svg width="36" height="28" viewBox="0 0 64 50" fill="none" aria-hidden="true">
+            <path d="M5 40 L31 44 L59 40" stroke="#E5CEB1" stroke-width="4" stroke-linecap="round" />
+            <path
+              d="M6 12 C15 9, 24 10, 32 15 C40 10, 49 9, 58 12 L58 37 C49 34, 40 35, 32 40 C24 35, 15 34, 6 37 Z"
+              fill="#FDFDF2"
+              stroke="#241B19"
+              stroke-width="2.6"
+              stroke-linejoin="round"
+            />
+            <path d="M32 15 L32 40" stroke="#241B19" stroke-width="2.2" stroke-linecap="round" />
+            <path d="M12 20 L25 21 M12 26 L25 27 M12 32 L23 33" stroke="#241B19" stroke-width="2.1" stroke-linecap="round" />
+            <path d="M38 21 L52 20 M38 27 L52 26 M38 33 L49 32" stroke="#241B19" stroke-width="2.1" stroke-linecap="round" />
+            <path
+              d="M44 4 C39.5 4 36 7 36 10.5 C36 13.4 38.4 15.8 41.8 16.6 L43.5 21 L46.2 16.8 C49.5 16.2 52 13.7 52 10.5 C52 7 48.5 4 44 4 Z"
+              fill="#F07872"
+              stroke="#241B19"
+              stroke-width="2"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span>Lectura en Chile</span>
+        </a>
+
+        <nav class="header-nav" aria-label="Secciones de la historia">
+          <a href="#panorama">Introducción</a>
+          <a href="#graficos">Gráficos</a>
+          <a href="#por-que">Por qué</a>
+          <a href="#tabla-datos">Tabla y cita</a>
+        </nav>
+
+        <a href="#graficos" class="header-cta">Explorar datos →</a>
+      </div>
+    </header>
+
+    <main id="contenido-principal" class="page-shell">
+      <!-- 1. TOP BOX: TITLE + PHOTOGRAPH OF STUDENTS READING -->
+      <section id="inicio" class="hero-frame" aria-labelledby="titulo-principal">
+        <div class="hero-title-box">
+          <p class="hero-kicker">Resultados PISA en Chile · Comprensión lectora (2000–2022)</p>
+          <h1 id="titulo-principal" class="hero-title">
+            Las brechas se achican, pero no todos avanzan
+          </h1>
+        </div>
+
+        <figure class="hero-photo-wrap" style="margin: 0">
+          <img
+            id="heroPhoto"
+            class="hero-photo"
+            src="./assets/estudiantes_chile_aula.jpg"
+            alt="Estudiantes chilenos de enseñanza media leyendo libros impresos en una sala de clases y biblioteca escolar"
+            referrerpolicy="no-referrer"
+            onerror="this.style.display='none'; document.getElementById('heroFallback').classList.add('is-visible');"
+          />
+          <div id="heroFallback" class="hero-photo-fallback" aria-label="Ilustración editorial de estudiantes leyendo">
+            <svg viewBox="0 0 680 320" width="100%" height="100%" fill="none" role="img" aria-label="Estudiantes leyendo libros en sala de clases">
+              <rect width="680" height="320" rx="12" fill="#E5CEB1" />
+              <rect x="34" y="28" width="170" height="190" rx="6" fill="#FDFDF2" stroke="#702C36" stroke-width="2" />
+              <line x1="119" y1="28" x2="119" y2="218" stroke="#702C36" stroke-width="1.5" />
+              <line x1="34" y1="123" x2="204" y2="123" stroke="#702C36" stroke-width="1.5" />
+              <circle cx="310" cy="128" r="34" fill="#702C36" />
+              <path d="M250 250 C250 198, 370 198, 370 250 Z" fill="#C81F32" />
+              <path d="M268 216 L310 228 L352 216 L352 262 L310 274 L268 262 Z" fill="#FDFDF2" stroke="#241B19" stroke-width="2.5" stroke-linejoin="round" />
+              <line x1="310" y1="228" x2="310" y2="274" stroke="#241B19" stroke-width="2" />
+              <circle cx="495" cy="134" r="32" fill="#241B19" />
+              <path d="M440 250 C440 202, 550 202, 550 250 Z" fill="#702C36" />
+              <path d="M456 218 L495 230 L534 218 L534 262 L495 274 L456 262 Z" fill="#FDFDF2" stroke="#241B19" stroke-width="2.5" stroke-linejoin="round" />
+              <line x1="495" y1="230" x2="495" y2="274" stroke="#241B19" stroke-width="2" />
+            </svg>
+          </div>
+          <figcaption class="hero-caption">
+            <span>Estudiantes de 15 años en jornada de lectura escolar en Chile</span>
+            <span>Fotografía documental de contexto · Lectura en Chile</span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <!-- CONNECTOR 1 -->
+      <div class="flow-connector" aria-hidden="true">
+        <svg width="76" height="44" viewBox="0 0 76 44" fill="none">
+          <path d="M6 10 H48 V36" stroke="#C81F32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M41 29 L48 38 L55 29" stroke="#C81F32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+
+      <!-- 2. BYLINE -->
+      <section class="byline-block" aria-label="Autoría">
+        <p class="byline-authors">Por: XXX y XXX</p>
+        <p class="byline-meta">Narración Gráfica de No Ficción · Análisis con datos oficiales PISA (2000–2022)</p>
+      </section>
+
+      <!-- 3. BAJADA / LEAD DECK BOX -->
+      <section id="panorama" class="bajada-frame" aria-label="Resumen de la investigación" style="margin-top: 20px">
+        <p>
+          En Chile, las diferencias de desempeño lector entre estudiantes se han reducido, pero los
+          resultados PISA revelan una paradoja:
+          <span class="bajada-highlight"
+            >una brecha más pequeña no siempre significa que todos están aprendiendo/ comprendiendo más.</span
+          >
+        </p>
+        <p>
+          Analizamos la paradoja en las brechas socioeconómicas tanto como en las brechas de género,
+          donde evidenciamos que esta reducción se da principalmente por la disminución de desempeño
+          de los grupos históricamente más favorecidos.
+        </p>
+      </section>
+
+      <!-- CONNECTOR 2 -->
+      <div class="flow-connector" aria-hidden="true">
+        <svg width="76" height="44" viewBox="0 0 76 44" fill="none">
+          <path d="M6 10 H48 V36" stroke="#C81F32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M41 29 L48 38 L55 29" stroke="#C81F32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+
+      <!-- 4. TWO SIDE-BY-SIDE CHARTS -->
+      <section id="graficos" aria-labelledby="heading-graficos">
+        <h2 id="heading-graficos" class="sr-only" style="position:absolute;left:-9999px;">
+          Gráficos de brecha de género y brecha socioeconómica en lectura PISA Chile
+        </h2>
+
+        <div class="charts-grid">
+          <!-- 1: BRECHA DE GÉNERO -->
+          <article class="chart-card" aria-labelledby="chart-gender-title">
+            <div class="chart-header">
+              <span class="chart-num" aria-hidden="true">1</span>
+              <h3 id="chart-gender-title" class="chart-title">
+                Brecha de género: la caída de mujeres redujo la distancia de 20 a 6 puntos entre 2018 y 2022
+              </h3>
+            </div>
+
+            <div class="chart-surface">
+              <svg id="genderChartSvg" class="chart-svg" viewBox="0 0 540 318" role="img" aria-labelledby="chart-gender-title"></svg>
+            </div>
+
+            <div id="genderReadout" class="chart-readout" aria-live="polite"></div>
+          </article>
+
+          <!-- 2: BRECHA SOCIOECONÓMICA -->
+          <article class="chart-card" aria-labelledby="chart-ses-title">
+            <div class="chart-header">
+              <span class="chart-num" aria-hidden="true">2</span>
+              <h3 id="chart-ses-title" class="chart-title">
+                Brecha socioeconómica: el descenso del quintil alto achicó la distancia de 100 a 82 puntos
+              </h3>
+            </div>
+
+            <div class="chart-surface">
+              <svg id="sesChartSvg" class="chart-svg" viewBox="0 0 540 318" role="img" aria-labelledby="chart-ses-title"></svg>
+            </div>
+
+            <div id="sesReadout" class="chart-readout" aria-live="polite"></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- CONNECTOR 3 -->
+      <div class="flow-connector" aria-hidden="true">
+        <svg width="76" height="44" viewBox="0 0 76 44" fill="none">
+          <path d="M6 10 H48 V36" stroke="#C81F32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M41 29 L48 38 L55 29" stroke="#C81F32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+
+      <!-- 5. CONTINUE READING CTA -->
+      <div class="continue-cta-wrap">
+        <a href="#analisis" class="btn-primary" id="continueReadingBtn">
+          <span>Seguir leyendo acá</span>
+          <span aria-hidden="true">↓</span>
+        </a>
+      </div>
+
+      <!-- STORY CONTINUATION: HALLAZGO BRECHA DE GÉNERO -->
+      <section id="analisis" class="story-section" aria-labelledby="heading-hallazgo-1">
+        <h2 id="heading-hallazgo-1" class="section-heading">
+          Un cierre de 14 puntos en cuatro años, pero con retroceso femenino
+        </h2>
+
+        <div class="story-grid">
+          <div class="prose-column">
+            <p>
+              Desde el primer ciclo medido en Chile el año 2000, las mujeres obtuvieron sistemáticamente
+              puntajes superiores a los hombres en comprensión lectora. Esa distancia alcanzó 25 puntos en
+              2000, se mantuvo entre 17 y 22 puntos entre 2006 y 2012, y marcó 20 puntos en 2018 (462
+              frente a 442 puntos).
+            </p>
+            <p>
+              En 2022, la diferencia se redujo a <strong>6 puntos</strong> (451 puntos en mujeres y 445 en
+              hombres). Sin embargo, el acercamiento no ocurrió porque ambos grupos escalaran hacia mejores
+              niveles de lectura: el puntaje femenino retrocedió <strong>11 puntos</strong> respecto de 2018,
+              volviendo al registro de 2006, mientras el masculino varió apenas <strong>+3 puntos</strong> y
+              siguió por debajo de su máximo de 2015 (453 puntos).
+            </p>
+          </div>
+
+          <aside class="stat-callout" aria-label="Dato clave de brecha de género">
+            <p class="stat-callout-label">Brecha de género 2018 → 2022</p>
+            <p class="stat-big">20 → 6 puntos</p>
+            <p>
+              El <strong>79 %</strong> de la reducción de 14 puntos en la brecha de género entre 2018 y 2022
+              proviene del descenso de 11 puntos en los resultados de las estudiantes mujeres.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <!-- STATEMENT CALLOUT -->
+      <section class="statement-band" aria-label="Idea central de la investigación">
+        <p class="statement-band-label">Idea central · Acercar los datos sin quitarles profundidad</p>
+        <blockquote>
+          “Una brecha más estrecha puede parecer un avance hacia la equidad, pero cuando se explica por
+          la caída de quienes lideraban la escala, el sistema educativo en su conjunto pierde impulso.”
+        </blockquote>
+      </section>
+
+      <!-- STORY CONTINUATION: HALLAZGO BRECHA SOCIOECONÓMICA -->
+      <section class="story-section" aria-labelledby="heading-hallazgo-2">
+        <h2 id="heading-hallazgo-2" class="section-heading">
+          Menos distancia entre quintiles extremos, sin despegue en la base
+        </h2>
+
+        <div class="story-grid">
+          <div class="prose-column">
+            <p>
+              En 2006, la diferencia entre el quintil socioeconómico Alto (517 puntos) y el quintil Bajo
+              (391 puntos) era de <strong>126 puntos</strong>. Para 2022, esa brecha descendió a
+              <strong>82 puntos</strong> (495 frente a 413 puntos).
+            </p>
+            <p>
+              Al observar el tramo más reciente (2018–2022), cuando la distancia pasó de 100 a 82 puntos
+              (18 puntos menos), el patrón vuelve a repetirse: el quintil Alto cayó <strong>14 puntos</strong>
+              (de 509 a 495, su registro más bajo desde 2006), mientras el quintil Bajo avanzó solo
+              <strong>4 puntos</strong> (de 409 a 413) y los quintiles Medio bajo y Medio también retrocedieron
+              (−6 y −3 puntos respectivamente).
+            </p>
+          </div>
+
+          <aside class="stat-callout" aria-label="Dato clave de brecha socioeconómica">
+            <p class="stat-callout-label">Brecha Alto–Bajo 2018 → 2022</p>
+            <p class="stat-big">100 → 82 puntos</p>
+            <p>
+              El quintil Alto acumula una caída de <strong>−22 puntos</strong> desde 2006 (517 → 495). En
+              2018–2022, su baja de 14 puntos explica el <strong>78 %</strong> del acortamiento de la brecha.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <!-- DATA TABLE -->
+      <section id="tabla-datos" class="story-section" aria-labelledby="heading-tabla">
+        <h2 id="heading-tabla" class="section-heading">
+          Tabla comparativa de resultados PISA en lectura (Chile)
+        </h2>
+
+        <div class="table-card">
+          <div class="table-toolbar">
+            <div class="segmented-control" role="group" aria-label="Seleccionar tabla de datos">
+              <button
+                type="button"
+                class="segmented-btn"
+                data-table="gender"
+                aria-pressed="true"
+              >
+                Brecha de género (2000–2022)
+              </button>
+              <button
+                type="button"
+                class="segmented-btn"
+                data-table="ses"
+                aria-pressed="false"
+              >
+                Quintiles socioeconómicos (2006–2022)
+              </button>
+            </div>
+
+            <button type="button" class="btn-secondary" id="downloadCsvBtn">
+              <span>Descargar CSV</span>
+              <span aria-hidden="true">↓</span>
+            </button>
+          </div>
+
+          <div class="table-scroll">
+            <table class="data-table" id="dataTable"></table>
+          </div>
+
+          <p class="chart-footnote" id="tableFootnote"></p>
+        </div>
+      </section>
+
+      <!-- CLOSING SECTION: INTRODUCING WHY THIS PARADOX HAPPENS -->
+      <section id="por-que" class="story-section" aria-labelledby="heading-porque">
+        <div class="closing-story-card">
+          <h2 id="heading-porque" class="section-heading">
+            ¿Por qué ocurre todo esto? Lo que abre esta historia
+          </h2>
+          <p class="closing-lead">
+            Los datos de PISA muestran <em>qué</em> pasó con los puntajes, pero no bastan por sí solos
+            para explicar <em>por qué</em> se produjo este empate a la baja. Entender esa paradoja es el
+            punto de partida de este reportaje: mirar detrás del promedio para investigar qué está
+            cambiando en la experiencia lectora de las y los adolescentes en Chile.
+          </p>
+
+          <div class="closing-axes">
+            <article class="closing-axis">
+              <h3>La pérdida de terreno arriba</h3>
+              <p>
+                ¿Por qué bajaron el desempeño de las mujeres (−11 pts) y del quintil alto (−14 pts en el
+                último ciclo)? Exploramos el desgaste de la lectura sostenida frente a formatos digitales
+                fragmentados y la menor práctica de textos largos y complejos.
+              </p>
+            </article>
+
+            <article class="closing-axis">
+              <h3>El techo que frena a la base</h3>
+              <p>
+                Que la distancia se acorte no significa que quienes partían más atrás hayan despegado: el
+                quintil bajo apenas varió (+4 pts) y el medio bajo retrocedió (−6 pts), dejando pendiente
+                la deuda de comprensión profunda en las aulas.
+              </p>
+            </article>
+
+            <article class="closing-axis">
+              <h3>Las preguntas del relato</h3>
+              <p>
+                A partir de estas cifras —y sin atribuir causas que PISA por sí solo no demuestra— esta
+                historia se adentra en escuelas, bibliotecas y hábitos cotidianos para entender cómo volver
+                a crecer sin dejar a nadie atrás.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CITATION & SOURCES AT THE VERY BOTTOM -->
+      <section id="fuentes" class="story-section" aria-labelledby="heading-cita">
+        <h2 id="heading-cita" class="section-heading">Fuentes, alcances y cita oficial</h2>
+
+        <div class="citation-card">
+          <div class="citation-grid">
+            <div>
+              <h3 style="margin:0 0 10px; font-family:var(--font-serif); font-size:1.2rem;">
+                Fuentes y cita bibliográfica
+              </h3>
+              <div class="citation-box" id="citationText">
+                Agencia de Calidad de la Educación (2023). <em>Resultados PISA 2022: Evolución del puntaje
+                promedio en comprensión lectora en Chile según sexo (2000–2022) y quintil socioeconómico
+                (2006–2022)</em>. Gobierno de Chile / Programa para la Evaluación Internacional de
+                Estudiantes (OCDE).
+              </div>
+              <div class="citation-actions">
+                <button type="button" class="btn-secondary" id="copyCitationBtn">
+                  <span>Copiar cita</span>
+                </button>
+                <a
+                  href="#graficos"
+                  class="btn-primary"
+                  style="padding: 11px 20px; min-height: 44px; font-size: 0.85rem;"
+                >
+                  <span>Volver a los gráficos ↑</span>
+                </a>
+                <span id="copyFeedback" class="copy-feedback" role="status" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <div>
+              <h3 style="margin:0 0 10px; font-family:var(--font-serif); font-size:1.2rem;">
+                Notas metodológicas
+              </h3>
+              <p style="margin:0 0 10px; font-size:0.9rem; line-height:1.6; color:var(--tinta);">
+                <strong>Unidad de medida:</strong> Puntajes promedio en la escala de competencia lectora de
+                PISA (estudiantes de 15 años).
+              </p>
+              <p style="margin:0; font-size:0.9rem; line-height:1.6; color:var(--tinta);">
+                <strong>Comparabilidad e incertidumbre:</strong> Las brechas reportadas corresponden a la
+                diferencia aritmética entre promedios publicados. Las comparaciones interanuales están sujetas
+                a errores muestrales y de enlace propios de PISA, por lo que no se atribuyen causas directas
+                que el instrumento no mide.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <p class="footer-tagline">Lectura en Chile · Una identidad cercana. Una lectura rigurosa.</p>
+          <p class="footer-meta">
+            Fuente de datos: Agencia de Calidad de la Educación, PISA 2022 · Narración Gráfica de No Ficción
+          </p>
+        </div>
+        <a href="#inicio" class="btn-secondary" style="border-color: var(--beige-arena);">
+          <span>Subir al inicio ↑</span>
+        </a>
+      </div>
+    </footer>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
